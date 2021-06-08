@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 response = requests.get("https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.json")
 def printjson(obj):
     # create a formatted string of the Python JSON object
